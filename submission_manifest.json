@@ -1,0 +1,19 @@
+{
+  "manifest_version": "submission_manifest.v1",
+  "repo_layout_rules": {
+    "manifest_path": "submission_manifest.json",
+    "readme_path": "README.md",
+    "artifacts_dir": "artifacts",
+    "artifact_extension": ".zip"
+  },
+  "artifacts": [
+    {
+      "family_id": "cf_swarm_autopilot",
+      "interface_version": "submission_zip.v1",
+      "artifact_path": "artifacts/cf_swarm_autopilot/submission.zip",
+      "sha256": "94c7d89402fbf816e2345f4abb38e0f2707e15d40196856b9ab465727eae2869",
+      "size_bytes": 15236533,
+      "metadata": {}
+    }
+  ]
+}
